@@ -18,4 +18,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://ftp.gnu.org/gnu/datamash/datamash-1.1.0.tar.gz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://alpha.gnu.org/gnu/texinfo/texinfo-6.0.93.tar.xz
