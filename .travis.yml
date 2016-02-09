@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/pretest/makecheckfail.tar.gz
