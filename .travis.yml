@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://www.mpfr.org/mpfr-3.1.4/mpfr-3.1.4-rc1.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://meyering.net/grep/grep-2.23.7-9e28.tar.xz
