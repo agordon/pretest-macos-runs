@@ -1,0 +1,22 @@
+language: generic
+os: osx
+osx_image: xcode6.2
+
+matrix:
+  include:
+    - language: generic
+      os: osx
+      osx_image: xcode6.4
+    - language: generic
+      os: osx
+      osx_image: xcode7.1
+    - language: generic
+      os: osx
+      osx_image: xcode7.3
+
+before_install:
+- brew install xz
+- wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
+
+script:
+- sh pretest-auto-build-check -r :REPORTURL: :SRCURL:
