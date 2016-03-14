@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Copyright (C) 2016 Assaf Gordon <assafgordon@gmail.com>
+# License: BSD-2-Clause
+
 REPORTURL="http://pretest.housegordon.org/upload"
 IN="travis-yml.template"
 OUT=".travis.yml"
