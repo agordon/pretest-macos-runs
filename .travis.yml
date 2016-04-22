@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/src/coreutils-8.25.27-bc35b-KEYCOMPARE.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/src/coreutils-8.25.27-c374d-KEYCOMPARE.tar.xz
