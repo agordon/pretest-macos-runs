@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/coreutils-8.25.27-c8461.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/src/coreutils-8.25.28-cf4d4-dirty-DATE-DEBUG-2016-05-01-v1.tar.xz
