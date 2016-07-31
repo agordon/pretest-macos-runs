@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/sed-4.2.2.138-c963.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://meyering.net/diff/diffutils-3.3.50-0353.tar.xz
