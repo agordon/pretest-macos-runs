@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/diffutils-3.3.58-4e2b3.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://alpha.gnu.org/gnu/texinfo/texinfo-6.1.90.tar.xz
