@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/coreutils-8.25.100-2fd79-dirty.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/coreutils-ss.tar.xz
