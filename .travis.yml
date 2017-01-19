@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://download-mirror.savannah.gnu.org/releases/datamash/datamash-latest.tar.gz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/src/datamash-1.1.1.tar.gz
