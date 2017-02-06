@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://meyering.net/sed/sed-4.3.22-3dc4c.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://ftp.gnu.org/gnu/sed/sed-4.4.tar.xz
