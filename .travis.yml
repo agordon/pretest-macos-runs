@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/util-linux-2.30-rc2-16-2ac1b.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://files.housegordon.org/tmp/datamash-1.1.1.24-cd37.tar.gz
