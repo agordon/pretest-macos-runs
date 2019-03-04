@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload https://meyering.net/diff/diffutils-3.6.17-d5ba.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload http://agnx.s3.amazonaws.com/tmp/coreutils-8.30.79-efa3e.tar.xz
