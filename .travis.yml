@@ -19,4 +19,4 @@ before_install:
 - wget http://git.savannah.gnu.org/cgit/pretest.git/plain/misc_scripts/pretest-auto-build-check
 
 script:
-- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload https://meyering.net/grep/grep-3.3.42-088f.tar.xz
+- sh pretest-auto-build-check -r http://pretest.housegordon.org/upload https://josefsson.org/tmp/inetutils-1.9.4.50-9410.tar.xz
